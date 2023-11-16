@@ -1,0 +1,27 @@
+.ContainerWidth {
+    margin: 0 auto;
+    background: #AC660C;
+}
+
+.mainHeading {
+    font-size: calc(40px + 0.05vw);
+}
+
+@media (min-width: 992px) {
+    .ContainerWidth {
+        padding: 0;
+    }
+
+    .rightSide {
+        max-width: 800px;
+        min-width: 400px;
+        float: right;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 1299px) {
+    .rightSide {
+        margin-left: 150px;
+    }
+}

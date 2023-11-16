@@ -1,0 +1,21 @@
+.containerStyle {
+    background-image: url('https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-hero-desk.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    max-width: 1200px;
+}
+
+.exploreBtn {
+    border-radius: 50px;
+    background: #E1B675;
+    color: #141414;
+    border: 1px solid #E1B675;
+}
+
+.exploreBtn:hover {
+    border-radius: 50px;
+    background: #E1B675;
+    color: #141414;
+    border: 1px solid #E1B675;
+}

@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    .imageTwo {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .imageThree {
+        display: none;
+    }
+}

@@ -1,0 +1,47 @@
+.divStyle {
+    border: 1px solid #FFD700;
+    border-radius: 30px;
+    flex: 1;
+}
+
+.headingStyle {
+    color: #906E39;
+    font-size: calc(1vw + 1vh + 0.5vmin);
+}
+
+.paraStyle {
+    font-size: 15px;
+}
+
+.gifStyle {
+    width: 50%;
+}
+
+.exploreBtn {
+    border-radius: 50px;
+    background: white;
+    color: #6F542C;
+    border: 1px solid #e0e0e0;
+}
+
+.exploreBtn:hover {
+    border-radius: 50px;
+    background: white;
+    color: #6F542C;
+    border: 1px solid #6F542C;
+}
+
+.exploreSectionAfterLGScrn {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .exploreSectionBeforeLGScrn {
+        display: none;
+    }
+
+    .exploreSectionAfterLGScrn {
+        display: block;
+    }
+}
+

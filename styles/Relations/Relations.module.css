@@ -1,0 +1,66 @@
+.imgContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottomLeft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottomRight {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.exploreBtn {
+    border-radius: 50px;
+    background: #E1B675;
+    color: #141414;
+    border: 1px solid #E1B675;
+}
+
+.exploreBtn:hover {
+    border-radius: 50px;
+    background: #E1B675;
+    color: #141414;
+    border: 1px solid #E1B675;
+}
+
+
+.Content {
+    display: flex;
+}
+
+.leftImg {
+    display: flex;
+    flex: 2;
+}
+
+.rightside {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.allRightImgs {
+    display: flex;
+    flex: 1;
+}
+
+.dataAfterLGScrn {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .dataBeforeLGScrn {
+        display: none;
+    }
+
+    .dataAfterLGScrn {
+        display: block;
+    }
+}
