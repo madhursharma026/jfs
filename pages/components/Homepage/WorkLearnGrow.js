@@ -4,7 +4,7 @@ import styles from '../../../styles/WorkLearnGrow/WorkLearnGrow.module.css';
 export default function WorkLearnGrow() {
     return (
         <div className="m-3 m-lg-5">
-            <div className={`container-lg px-5 py-5 ${styles.containerStyle}`}>
+            <div className={`container-lg px-lg-5 px-3 py-5 ${styles.containerStyle}`}>
                 <div className='text-white' style={{ maxWidth: '500px' }}>
                     <h1 style={{ fontSize: 'calc(40px + 1.25vw)' }}><b>Work, learn and grow</b></h1>
                     <h5>Join our diverse workforce to explore learning opportunities and experience continuous growth.</h5>

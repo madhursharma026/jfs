@@ -7,9 +7,9 @@ export default function ContactUs() {
             <Header pageName='investorRelations' />
             <div className='container-lg'>
                 <div style={{ maxWidth: '800px', margin: 'auto' }}>
-                    <h1 className='my-5 text-center' style={{ fontSize: '4rem' }}><b>Investor Contacts</b></h1>
-                    <img src="https://jep-asset.akamaized.net/cms/assets/jfs/investor-relations/investor-contacts-desk1.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '30px' }} />
-                    <div className="row mt-5">
+                    <h1 className='my-5 text-center' style={{ fontSize: 'calc(40px + 1.25vw)'  }}><b>Investor Contacts</b></h1>
+                    <img src="https://jep-asset.akamaized.net/cms/assets/jfs/investor-relations/investor-contacts-desk1.webp" alt="#ImgNotFound" className='w-100 px-3' style={{ borderRadius: '30px' }} />
+                    <div className="row mt-5 px-3">
                         <div className="col-lg-6">
                             <b><h4 className='mt-3' style={{ color: '#902B00' }}><b>INVESTOR CONTACT</b></h4></b>
                             <h4><b>Ms. V Mohana</b></h4>

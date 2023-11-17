@@ -16,12 +16,12 @@ export default function Solutions() {
                     </div>
                 </div>
             </div>
-            <div className="mt-5 text-center" style={{ maxWidth: '800px', margin: 'auto' }}>
+            <div className="mt-5 px-5 text-md-center" style={{ maxWidth: '800px', margin: 'auto' }}>
                 <h1 style={{ fontSize: 'calc(40px + 1.25vw)' }}><b>Explore our business-ready payment solution</b></h1>
                 <h5 className='text-secondary'>We are obsessed with technology and use it extensively to solve users’ day-to-day problems and payments are one of them. Created with the sole intention of revolutionising payments, our payment solution facilitates quick and simple transactions. Using this feature, merchants can accept payments from all digital modes including cards, UPI, Netbanking, Wallets, Bill Now, Pay Later, and more.</h5>
             </div>
 
-            <div className="mt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="mt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/payment/A+secure+payment+gateway++.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -35,7 +35,7 @@ export default function Solutions() {
                 </div>
             </div>
 
-            <div className="mt-5 pt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="mt-5 pt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6 order-md-2" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/payment/A+versatile+in-store+terminal+.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -49,7 +49,7 @@ export default function Solutions() {
                 </div>
             </div>
 
-            <div className="mt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="mt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/payment/trusted-upi-hub-3.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -63,7 +63,7 @@ export default function Solutions() {
                 </div>
             </div>
 
-            <div className="my-5 pt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="my-5 pt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6 order-md-2" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/payment/A+reliable+bill+centre+.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -99,9 +99,9 @@ export default function Solutions() {
                 </div>
             </div>
 
-            <div className="my-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
-                <h1 className='text-center' style={{ fontSize: 'calc(40px + 1.25vw)', }}><b>Got queries? <br /> Check FAQ</b></h1>
-                <h5 className='text-center'>Find answers to some of the commonly asked questions.</h5>
+            <div className="my-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+                <h1 className='text-md-center' style={{ fontSize: 'calc(40px + 1.25vw)', }}><b>Got queries? <br /> Check FAQ</b></h1>
+                <h5 className='text-md-center'>Find answers to some of the commonly asked questions.</h5>
 
                 <Accordion className='mt-4'>
                     <Accordion.Item eventKey="0" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>

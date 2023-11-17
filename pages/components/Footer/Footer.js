@@ -1,4 +1,6 @@
+import { Dropdown, ListGroup } from 'react-bootstrap';
 import styles from '../../../styles/Footer/Footer.module.css';
+import Link from 'next/link';
 
 export default function Footer() {
     return (
@@ -56,7 +58,7 @@ export default function Footer() {
             </div>
 
             <div className={`row mx-4 py-3 ${styles.footerAfterLGScrn}`}>
-                <select className='form-control mt-4' style={{ border: '0', background: 'transparent', fontWeight: '700', fontSize: '18px' }} name="cars" id="cars">
+                {/* <select className='form-control mt-4' style={{ border: '0', background: 'transparent', fontWeight: '700', fontSize: '18px' }} name="cars" id="cars">
                     <option value="#">Our Business</option>
                     <option value="#">Loans</option>
                     <option value="#">Insurance Broking</option>
@@ -97,7 +99,52 @@ export default function Footer() {
                     <option value="#">SEBI Circular on Online Dispute Resolution</option>
                     <option value="#">Link to SMART ODR</option>
                 </select>
-                <hr />
+                <hr /> */}
+                <ListGroup variant="flush" style={{ border: 'none' }}>
+                    <Dropdown>
+                        <Dropdown.Toggle variant="transparent" id="dropdown-basic" className='w-100 px-0' style={{ textAlign: 'left', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                            Our Business
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu className='w-100'>
+                            <Link href='/loans' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Loans</Link>
+                            <Link href='/broking' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Insurance Broking</Link>
+                            <Link href='/banks' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Payments Bank</Link>
+                            <Link href='/solutions' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Payment Solutions</Link>
+                        </Dropdown.Menu>
+                    </Dropdown>
+                    <Dropdown>
+                        <Dropdown.Toggle variant="transparent" id="dropdown-basic" className='w-100 px-0' style={{ textAlign: 'left', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                            Investor Relations
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu className='w-100'>
+                            <Link href='/financial' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Financials</Link>
+                            <Link href='/documents' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Policy Documents</Link>
+                            <Link href='/contacts' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Investor Contacts</Link>
+                            <Link href='/mechanism' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Grievance Mechanism</Link>
+                            <Link href='/disclosure' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Disclosure Under Regulation 46 of SEBI (LODR) Regulations, 2015</Link>
+                            <Link href='/downloads' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Downloads</Link>
+                            <Link href='/announcements' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Corporate Announcements</Link>
+                            <Link href='/notices' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Notices</Link>
+                        </Dropdown.Menu>
+                    </Dropdown>
+                    <Dropdown>
+                        <Dropdown.Toggle variant="transparent" id="dropdown-basic" className='w-100 px-0' style={{ textAlign: 'left', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                            Our Company
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu className='w-100'>
+                            <Link href='/aboutUs' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>About Us</Link>
+                            <Link href='/director' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Board of Directors</Link>
+                            <Link href='/committees' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Board Committees</Link>
+                            <Link href='/management' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Management</Link>
+                        </Dropdown.Menu>
+                    </Dropdown>
+                    <Link href='/careers' className='w-100 px-0 p-2 text-black' style={{ textAlign: 'left', textDecoration: 'none', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                        Careers
+                    </Link>
+                    <Link href='/contactUs' className='w-100 px-0 p-2 text-black' style={{ textAlign: 'left', textDecoration: 'none', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                        Contact Us
+                    </Link>
+                </ListGroup>
             </div>
 
             <hr />

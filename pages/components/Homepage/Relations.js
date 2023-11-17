@@ -3,8 +3,8 @@ import styles from '../../../styles/Relations/Relations.module.css';
 
 export default function Relations() {
     return (
-        <div className="p-5 text-white" style={{ background: '#7B5D32' }}>
-            <div className="container-lg text-center">
+        <div className="p-lg-5 py-5 px-3 text-white" style={{ background: '#7B5D32' }}>
+            <div className="container-lg text-md-center">
                 <h1 style={{ fontSize: 'calc(30px + 1.25vw)', maxWidth: '800px', margin: 'auto' }}>
                     <b>Find resources related to investor relations here</b>
                 </h1>

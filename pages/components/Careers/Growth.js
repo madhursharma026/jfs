@@ -9,8 +9,8 @@ export default function Growth() {
                     <Carousel.Item>
                         <div className="row m-5">
                             <div className="col-lg-4" style={{ display: 'flex' }}>
-                                <div className={`p-3 ${styles.divStyle}`} style={{ background: '#FFD2AD' }}>
-                                    <h2 className={`mt-3 px-4 ${styles.headingStyle}`}>
+                                <div className={`p-3 ${styles.divStyle1}`} style={{ background: '#FFD2AD' }}>
+                                    <h2 className={`mt-3 px-4`}>
                                         <i className='fa fa-area-chart'></i>
                                         <br />
                                         <b style={{ color: '#6F542C' }}> Nurturing a work culture of care and empathy </b>
@@ -20,8 +20,8 @@ export default function Growth() {
                                 </div>
                             </div>
                             <div className="col-lg-4" style={{ display: 'flex' }}>
-                                <div className={`p-3 ${styles.divStyle}`} style={{ background: '#FFD2AD' }}>
-                                    <h2 className={`mt-3 px-4 ${styles.headingStyle}`}>
+                                <div className={`p-3 ${styles.divStyle2}`} style={{ background: '#FFD2AD' }}>
+                                    <h2 className={`mt-3 px-4`}>
                                         <i className='fa fa-area-chart'></i>
                                         <br />
                                         <b style={{ color: '#6F542C' }}> Journey towards creating the largest digital financial services entity </b>
@@ -31,8 +31,8 @@ export default function Growth() {
                                 </div>
                             </div>
                             <div className="col-lg-4" style={{ display: 'flex' }}>
-                                <div className={`p-3 ${styles.divStyle}`} style={{ background: '#FFD2AD' }}>
-                                    <h2 className={`mt-3 px-4 ${styles.headingStyle}`}>
+                                <div className={`p-3 ${styles.divStyle2}`} style={{ background: '#FFD2AD' }}>
+                                    <h2 className={`mt-3 px-4`}>
                                         <i className='fa fa-area-chart'></i>
                                         <br />
                                         <b style={{ color: '#6F542C' }}>Passionate & Ambitious</b>
@@ -44,8 +44,8 @@ export default function Growth() {
                     <Carousel.Item>
                         <div className="row m-5">
                             <div className="col-lg-4" style={{ display: 'flex' }}>
-                                <div className={`p-3 ${styles.divStyle}`} style={{ background: '#FFD2AD' }}>
-                                    <h2 className={`mt-3 px-4 ${styles.headingStyle}`}>
+                                <div className={`p-3 ${styles.divStyle2}`} style={{ background: '#FFD2AD' }}>
+                                    <h2 className={`mt-3 px-4`}>
                                         <i className='fa fa-area-chart'></i>
                                         <br />
                                         <b style={{ color: '#6F542C' }}> Nurturing a work culture of care and empathy </b>
@@ -55,8 +55,8 @@ export default function Growth() {
                                 </div>
                             </div>
                             <div className="col-lg-4" style={{ display: 'flex' }}>
-                                <div className={`p-3 ${styles.divStyle}`} style={{ background: '#FFD2AD' }}>
-                                    <h2 className={`mt-3 px-4 ${styles.headingStyle}`}>
+                                <div className={`p-3 ${styles.divStyle1}`} style={{ background: '#FFD2AD' }}>
+                                    <h2 className={`mt-3 px-4`}>
                                         <i className='fa fa-area-chart'></i>
                                         <br />
                                         <b style={{ color: '#6F542C' }}> Journey towards creating the largest digital financial services entity </b>
@@ -66,8 +66,8 @@ export default function Growth() {
                                 </div>
                             </div>
                             <div className="col-lg-4" style={{ display: 'flex' }}>
-                                <div className={`p-3 ${styles.divStyle}`} style={{ background: '#FFD2AD' }}>
-                                    <h2 className={`mt-3 px-4 ${styles.headingStyle}`}>
+                                <div className={`p-3 ${styles.divStyle2}`} style={{ background: '#FFD2AD' }}>
+                                    <h2 className={`mt-3 px-4`}>
                                         <i className='fa fa-area-chart'></i>
                                         <br />
                                         <b style={{ color: '#6F542C' }}>Passionate & Ambitious</b>
@@ -79,8 +79,8 @@ export default function Growth() {
                     <Carousel.Item>
                         <div className="row m-5">
                             <div className="col-lg-4" style={{ display: 'flex' }}>
-                                <div className={`p-3 ${styles.divStyle}`} style={{ background: '#FFD2AD' }}>
-                                    <h2 className={`mt-3 px-4 ${styles.headingStyle}`}>
+                                <div className={`p-3 ${styles.divStyle2}`} style={{ background: '#FFD2AD' }}>
+                                    <h2 className={`mt-3 px-4`}>
                                         <i className='fa fa-area-chart'></i>
                                         <br />
                                         <b style={{ color: '#6F542C' }}> Nurturing a work culture of care and empathy </b>
@@ -90,8 +90,8 @@ export default function Growth() {
                                 </div>
                             </div>
                             <div className="col-lg-4" style={{ display: 'flex' }}>
-                                <div className={`p-3 ${styles.divStyle}`} style={{ background: '#FFD2AD' }}>
-                                    <h2 className={`mt-3 px-4 ${styles.headingStyle}`}>
+                                <div className={`p-3 ${styles.divStyle2}`} style={{ background: '#FFD2AD' }}>
+                                    <h2 className={`mt-3 px-4`}>
                                         <i className='fa fa-area-chart'></i>
                                         <br />
                                         <b style={{ color: '#6F542C' }}> Journey towards creating the largest digital financial services entity </b>
@@ -101,8 +101,8 @@ export default function Growth() {
                                 </div>
                             </div>
                             <div className="col-lg-4" style={{ display: 'flex' }}>
-                                <div className={`p-3 ${styles.divStyle}`} style={{ background: '#FFD2AD' }}>
-                                    <h2 className={`mt-3 px-4 ${styles.headingStyle}`}>
+                                <div className={`p-3 ${styles.divStyle1}`} style={{ background: '#FFD2AD' }}>
+                                    <h2 className={`mt-3 px-4`}>
                                         <i className='fa fa-area-chart'></i>
                                         <br />
                                         <b style={{ color: '#6F542C' }}>Passionate & Ambitious</b>

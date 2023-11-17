@@ -8,9 +8,9 @@ export default function Committees() {
         <>
             <Header pageName='ourCompany' />
             <div className="container-lg" style={{ maxWidth: '1200px', margin: 'auto' }}>
-                <h1 className='text-center mt-5' style={{ fontSize: 'calc(40px + 1.25vw)' }}><b>Board Committees</b></h1>
-                <h5 className='text-center' style={{ fontSize: '1.125rem' }}>Discover our board committees, each dedicated to managing specific responsibilities related to various aspects of operations and compliance.</h5>
-                <div className="row mb-5">
+                <h1 className='text-md-center px-3 mt-5' style={{ fontSize: 'calc(40px + 1.25vw)' }}><b>Board Committees</b></h1>
+                <h5 className='text-md-center px-3' style={{ fontSize: '1.125rem' }}>Discover our board committees, each dedicated to managing specific responsibilities related to various aspects of operations and compliance.</h5>
+                <div className="row mb-5 px-3">
                     <div className="col-md-4 mt-5">
                         <ListGroup style={{cursor: 'pointer'}}>
                             <ListGroup.Item className='fs-6 p-3' style={{ background: '#D8AA67', color: 'white', fontWeight: '500' }}>Cras justo odio</ListGroup.Item>

@@ -4,6 +4,12 @@
     flex: 1;
 }
 
+.divStyle1 {
+    border: 1px solid #FFD700;
+    border-radius: 30px;
+    flex: 1;
+}
+
 .headingStyle {
     color: #906E39;
     font-size: calc(1vw + 1vh + 0.5vmin);
@@ -45,3 +51,16 @@
     }
 }
 
+@media (min-width: 768px) {
+    .divStyle2 {
+        border: 1px solid #FFD700;
+        border-radius: 30px;
+        flex: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    .divStyle2 {
+        display: none;
+    }
+}

@@ -5,6 +5,8 @@ import styles from '../../../styles/Header/Header.module.css'
 import { useState } from 'react';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Link from 'next/link';
+import Dropdown from 'react-bootstrap/Dropdown';
+
 
 
 export default function Header(props) {
@@ -28,7 +30,7 @@ export default function Header(props) {
                                 {/* <Link href='#ourBusiness' className={`${styles.navbarOption} px-3`} style={{ textDecoration: pageName === 'ourBusiness' ? 'underline' : '' }}>Our Business</Link> */}
                                 <div class={styles.dropdownButton}>
                                     <button class={`px-3 ${styles.dropdownButtonName}`} style={{ textDecoration: pageName === 'ourBusiness' ? 'underline' : '' }}>Our Business</button>
-                                    <div class={styles.dropdownButtonContent} style={{minWidth: '200px'}}>
+                                    <div class={styles.dropdownButtonContent} style={{ minWidth: '200px' }}>
                                         <Link href='/loans' className={`${styles.a}`}>Loans</Link>
                                         <Link href='/broking' className={`${styles.a}`}>Insurance Broking</Link>
                                         <Link href='/banks' className={`${styles.a}`}>Payments Bank</Link>
@@ -38,7 +40,7 @@ export default function Header(props) {
                                 {/* <Link href='#investorRelations' className={`${styles.navbarOption} px-3`} style={{ textDecoration: pageName === 'investorRelations' ? 'underline' : '' }}>Investor Relations</Link> */}
                                 <div class={styles.dropdownButton}>
                                     <button class={`px-3 ${styles.dropdownButtonName}`} style={{ textDecoration: pageName === 'investorRelations' ? 'underline' : '' }}>Investor Relations</button>
-                                    <div class={styles.dropdownButtonContent} style={{minWidth: '500px'}}>
+                                    <div class={styles.dropdownButtonContent} style={{ minWidth: '500px' }}>
                                         <Link href='/financial' className={`${styles.a}`}>Financials</Link>
                                         <Link href='/documents' className={`${styles.a}`}>Policy Documents</Link>
                                         <Link href='/contacts' className={`${styles.a}`}>Investor Contacts</Link>
@@ -52,7 +54,7 @@ export default function Header(props) {
                                 {/* <Link href='#ourCompany' className={`${styles.navbarOption} px-3`} style={{ textDecoration: pageName === 'ourCompany' ? 'underline' : '' }}>Our Company</Link> */}
                                 <div class={styles.dropdownButton}>
                                     <button class={`px-3 ${styles.dropdownButtonName}`} style={{ textDecoration: pageName === 'ourCompany' ? 'underline' : '' }}>Our Company</button>
-                                    <div class={styles.dropdownButtonContent} style={{minWidth: '200px'}}>
+                                    <div class={styles.dropdownButtonContent} style={{ minWidth: '200px' }}>
                                         <Link href='/aboutUs' className={`${styles.a}`}>About Us</Link>
                                         <Link href='/director' className={`${styles.a}`}>Board of Directors</Link>
                                         <Link href='/committees' className={`${styles.a}`}>Board Committees</Link>
@@ -90,11 +92,49 @@ export default function Header(props) {
                 </Offcanvas.Header>
                 <Offcanvas.Body className='p-4'>
                     <ListGroup variant="flush" style={{ border: 'none' }}>
-                        <Link href='#' style={{ textDecoration: 'none' }} className={`${styles.navbarOptionAfterLGScrn} py-3`}>Our Business</Link>
-                        <Link href='#' style={{ textDecoration: 'none' }} className={`${styles.navbarOptionAfterLGScrn} py-3`}>Investor Relations</Link>
-                        <Link href='#' style={{ textDecoration: 'none' }} className={`${styles.navbarOptionAfterLGScrn} py-3`}>Our Company</Link>
-                        <Link href='/careers' style={{ textDecoration: 'none' }} className={`${styles.navbarOptionAfterLGScrn} py-3`}>Careers</Link>
-                        <Link href='/contactUs' style={{ textDecoration: 'none' }} className={`${styles.navbarOptionAfterLGScrn} py-3`}>Contact Us</Link>
+                        <Dropdown>
+                            <Dropdown.Toggle variant="transparent" id="dropdown-basic" className='w-100 px-0' style={{ textAlign: 'left', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                                Our Business
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu className='w-100'>
+                                <Link href='/loans' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Loans</Link>
+                                <Link href='/broking' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Insurance Broking</Link>
+                                <Link href='/banks' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Payments Bank</Link>
+                                <Link href='/solutions' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Payment Solutions</Link>
+                            </Dropdown.Menu>
+                        </Dropdown>
+                        <Dropdown>
+                            <Dropdown.Toggle variant="transparent" id="dropdown-basic" className='w-100 px-0' style={{ textAlign: 'left', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                                Investor Relations
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu className='w-100'>
+                                <Link href='/financial' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Financials</Link>
+                                <Link href='/documents' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Policy Documents</Link>
+                                <Link href='/contacts' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Investor Contacts</Link>
+                                <Link href='/mechanism' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Grievance Mechanism</Link>
+                                <Link href='/disclosure' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Disclosure Under Regulation 46 of SEBI (LODR) Regulations, 2015</Link>
+                                <Link href='/downloads' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Downloads</Link>
+                                <Link href='/announcements' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Corporate Announcements</Link>
+                                <Link href='/notices' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Notices</Link>
+                            </Dropdown.Menu>
+                        </Dropdown>
+                        <Dropdown>
+                            <Dropdown.Toggle variant="transparent" id="dropdown-basic" className='w-100 px-0' style={{ textAlign: 'left', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                                Our Company
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu className='w-100'>
+                                <Link href='/aboutUs' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>About Us</Link>
+                                <Link href='/director' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Board of Directors</Link>
+                                <Link href='/committees' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Board Committees</Link>
+                                <Link href='/management' style={{ display: 'block', textDecoration: 'none' }} className={`text-black px-2`}>Management</Link>
+                            </Dropdown.Menu>
+                        </Dropdown>
+                        <Link href='/careers' className='w-100 px-0 p-2 text-black' style={{ textAlign: 'left', textDecoration: 'none', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                            Careers
+                        </Link>
+                        <Link href='/contactUs' className='w-100 px-0 p-2 text-black' style={{ textAlign: 'left', textDecoration: 'none', fontWeight: '500', fontSize: '18px', borderRadius: '0', borderTop: 0, borderLeft: '0', borderRight: '0', borderBottom: '1px solid #E0E0E0' }}>
+                            Contact Us
+                        </Link>
                     </ListGroup>
                 </Offcanvas.Body>
             </Offcanvas>

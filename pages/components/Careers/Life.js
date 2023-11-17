@@ -4,7 +4,7 @@ import styles from '../../../styles/Explore/Explore.module.css';
 
 export default function Life() {
     return (
-        <div className="mt-5 text-center" style={{ maxWidth: '800px', margin: 'auto' }}>
+        <div className="mt-5 text-md-center px-4" style={{ maxWidth: '800px', margin: 'auto' }}>
             <h1><b>Life at JFS</b></h1>
             <h5>JFS aims to create a sustainable, nimble, and forward-looking 'talent-intensive' organisation fostering long-term value creation for all stakeholders and an 'enriching place to work' globally.</h5>
 
@@ -29,23 +29,23 @@ export default function Life() {
             <div className={styles.exploreSectionAfterLGScrn}>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="m-5">
-                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card1-.jpg" alt="#ImgNotFound" style={{ borderRadius: '30px', maxHeight: '650px', minHeight: '350px', height: '100%', width: '100%' }} />
+                        <div className="mx-md-5 my-5">
+                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card1-.jpg" alt="#ImgNotFound" style={{ borderRadius: '30px', minHeight: '400px', maxHeight: '400px', height: '100%', width: '100%' }} />
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="m-5">
-                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card2-.jpg" alt="#ImgNotFound" style={{ borderRadius: '30px', maxHeight: '650px', minHeight: '350px', height: '100%', width: '100%' }} />
+                        <div className="mx-md-5 my-5">
+                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card2-.jpg" alt="#ImgNotFound" style={{ borderRadius: '30px', minHeight: '400px', maxHeight: '400px', height: '100%', width: '100%' }} />
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="m-5">
-                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/tile3-desk.webp" alt="#ImgNotFound" style={{ borderRadius: '30px', maxHeight: '650px', minHeight: '350px', height: '100%', width: '100%' }} />
+                        <div className="mx-md-5 my-5">
+                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/tile3-desk.webp" alt="#ImgNotFound" style={{ borderRadius: '30px', minHeight: '400px', maxHeight: '400px', height: '100%', width: '100%' }} />
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="m-5">
-                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card5.svg" alt="#ImgNotFound" style={{ borderRadius: '30px', maxHeight: '650px', minHeight: '350px', height: '100%', width: '100%' }} />
+                        <div className="mx-md-5 my-5">
+                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card5.svg" alt="#ImgNotFound" style={{ borderRadius: '30px', minHeight: '400px', maxHeight: '400px', height: '100%', width: '100%' }} />
                         </div>
                     </Carousel.Item>
                 </Carousel>

@@ -5,9 +5,9 @@ export default function Notices() {
     return (
         <>
             <Header pageName='investorRelations' />
-            <div className="mt-5 container-lg" style={{ maxWidth: '900px', margin: 'auto' }}>
-                <h1 className='text-center'><b>Notices</b></h1>
-                <h5 className='text-center text-muted'>Here, you'll find all the latest updates on important events.</h5>
+            <div className="mt-5 container-lg px-4" style={{ maxWidth: '900px', margin: 'auto' }}>
+                <h1 className='text-md-center'><b>Notices</b></h1>
+                <h5 className='text-md-center text-muted'>Here, you'll find all the latest updates on important events.</h5>
 
                 <div className="mb-5">
                     <ul class="list-group px-lg-5">

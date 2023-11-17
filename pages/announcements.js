@@ -6,8 +6,8 @@ export default function Announcements() {
     return (
         <>
             <Header pageName='investorRelations' />
-            <div className="mt-5 container-lg" style={{ maxWidth: '900px', margin: 'auto' }}>
-                <h1 className='text-center'><b>Corporate Announcements</b></h1>
+            <div className="mt-5 container-lg px-4" style={{ maxWidth: '900px', margin: 'auto' }}>
+                <h1 className='text-md-center'><b>Corporate Announcements</b></h1>
 
                 <div className="mb-5">
                     <ul class="list-group px-lg-5">

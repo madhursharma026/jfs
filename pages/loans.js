@@ -16,12 +16,12 @@ export default function Loans() {
                     </div>
                 </div>
             </div>
-            <div className="mt-5 text-center" style={{ maxWidth: '800px', margin: 'auto' }}>
+            <div className="mt-5 px-5 text-md-center" style={{ maxWidth: '800px', margin: 'auto' }}>
                 <h1 style={{ fontSize: 'calc(40px + 1.25vw)' }}><b>All about our lending services</b></h1>
                 <h5 className='text-secondary'>Jio Finance offers a comprehensive suite of financial products catering to both retail and business segments. In recent developments, we have launched Consumer Durable Loans and Personal Loans for retail consumers, alongside Trade Credit Facility Loans tailored to meet the needs of small businesses.</h5>
             </div>
 
-            <div className="mt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="mt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/lending/realise-your-dreams-right-away.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -35,7 +35,7 @@ export default function Loans() {
                 </div>
             </div>
 
-            <div className="mt-5 pt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="mt-5 pt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6 order-md-2" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/unbox-happines-v3.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -49,7 +49,7 @@ export default function Loans() {
                 </div>
             </div>
 
-            <div className="my-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="my-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/lending/see-your-business-ambitions-soar.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -87,9 +87,9 @@ export default function Loans() {
                 </div>
             </div>
 
-            <div className="my-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
-                <h1 className='text-center' style={{ fontSize: 'calc(40px + 1.25vw)', }}><b>Got queries? <br /> Check FAQ</b></h1>
-                <h5 className='text-center'>Find answers to some of the commonly asked questions.</h5>
+            <div className="my-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+                <h1 className='text-md-center' style={{ fontSize: 'calc(40px + 1.25vw)', }}><b>Got queries? <br /> Check FAQ</b></h1>
+                <h5 className='text-md-center'>Find answers to some of the commonly asked questions.</h5>
 
                 <Accordion className='mt-4'>
                     <Accordion.Item eventKey="0" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>

@@ -16,12 +16,12 @@ export default function Banks() {
                     </div>
                 </div>
             </div>
-            <div className="mt-5 text-center" style={{ maxWidth: '800px', margin: 'auto' }}>
+            <div className="mt-5 px-lg-0 px-5 text-md-center" style={{ maxWidth: '800px', margin: 'auto' }}>
                 <h1 style={{ fontSize: 'calc(40px + 1.25vw)' }}><b>Banking services in a nutshell</b></h1>
                 <h5 className='text-secondary'>We are targeting the overall financial landscape with a conscious focus on the needs of everyone living anywhere in India. Leading and co-creating an eco-system, we provide accessible, simple and affordable banking solutions to every Indian - especially the financially excluded. With that, our aim to digitise payments and act as a catalyst towards building a cashless society takes shape.</h5>
             </div>
 
-            <div className="mt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="mt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/bank/pay-utility-bills-just-like-that-v2.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -35,7 +35,7 @@ export default function Banks() {
                 </div>
             </div>
 
-            <div className="mt-5 pt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="mt-5 pt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6 order-md-2" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/bank/bank-in-a-hassle-free-way.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -49,7 +49,7 @@ export default function Banks() {
                 </div>
             </div>
 
-            <div className="mt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="mt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/bank/trust-us-with-your-finances-v2.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -63,7 +63,7 @@ export default function Banks() {
                 </div>
             </div>
 
-            <div className="my-5 pt-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="my-5 pt-5 px-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
                 <div className="row">
                     <div className="col-md-6 order-md-2" style={{ margin: 'auto' }}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/pdp/bank/reach-us-anytime.webp" alt="#ImgNotFound" className='w-100' style={{ borderRadius: '20px' }} />
@@ -101,9 +101,9 @@ export default function Banks() {
                 </div>
             </div>
 
-            <div className="my-5" style={{ maxWidth: '1200px', margin: 'auto' }}>
-                <h1 className='text-center' style={{ fontSize: 'calc(40px + 1.25vw)', }}><b>Got queries? <br /> Check FAQ</b></h1>
-                <h5 className='text-center'>Find answers to some of the commonly asked questions.</h5>
+            <div className="my-5 px-3" style={{ maxWidth: '1200px', margin: 'auto' }}>
+                <h1 className='text-md-center' style={{ fontSize: 'calc(40px + 1.25vw)', }}><b>Got queries? <br /> Check FAQ</b></h1>
+                <h5 className='text-md-center'>Find answers to some of the commonly asked questions.</h5>
 
                 <Accordion className='mt-4'>
                     <Accordion.Item eventKey="0" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
