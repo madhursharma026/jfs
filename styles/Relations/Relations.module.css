@@ -69,4 +69,7 @@
     .bottomLeft{
         font-size: 14px;
     }
+    .bottomLeft2{
+        display: none;
+    }
 }

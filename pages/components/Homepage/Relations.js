@@ -16,7 +16,7 @@ export default function Relations() {
                             <div className={`${styles.imgContainer} mt-3`}>
                                 <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/finance.webp" alt="#ImgNotFound" className="w-100 h-100 p-2" style={{ borderRadius: '30px' }} />
                                 <h2 className={`${styles.bottomLeft} mb-5`}><b>Financial Documents</b></h2>
-                                {/* <h5 className={`${styles.bottomLeft}`}>Access quarterly and annual reports.</h5> */}
+                                <h5 className={`${styles.bottomLeft}`}>Access quarterly and annual reports.</h5>
                                 <div className={styles.bottomRight}>
                                     <Button className={`${styles.exploreBtn} px-md-4 px-2 py-md-2 mb-3`}><b>Explore <i class="fa fa-long-arrow-right"></i></b></Button>
                                 </div>
@@ -53,8 +53,8 @@ export default function Relations() {
                     <div className="col-lg-7">
                         <div className={`${styles.imgContainer} mt-3`}>
                             <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/finance.webp" alt="#ImgNotFound" className="w-100" style={{ borderRadius: '30px' }} />
-                            <h2 className={`${styles.bottomLeft} mb-5`}><b>Financial Documents</b></h2>
-                            <h5 className={styles.bottomLeft}>Access quarterly and annual reports.</h5>
+                            <h2 className={`${styles.bottomLeft} mb-sm-5 mb-3`}><b>Financial Documents</b></h2>
+                            <h5 className={`${styles.bottomLeft2} ${styles.bottomLeft}`}>Access quarterly and annual reports.</h5>
                             <div className={styles.bottomRight}>
                                 <Button className={`${styles.exploreBtn} px-md-4 px-2 py-md-2 mb-3`}><b>Explore <i class="fa fa-long-arrow-right"></i></b></Button>
                             </div>
