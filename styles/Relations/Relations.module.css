@@ -64,3 +64,9 @@
         display: block;
     }
 }
+
+@media (max-width: 576px) {
+    .bottomLeft{
+        font-size: 14px;
+    }
+}

@@ -16,9 +16,9 @@ export default function Relations() {
                             <div className={`${styles.imgContainer} mt-3`}>
                                 <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/finance.webp" alt="#ImgNotFound" className="w-100 h-100 p-2" style={{ borderRadius: '30px' }} />
                                 <h2 className={`${styles.bottomLeft} mb-5`}><b>Financial Documents</b></h2>
-                                <h5 className={styles.bottomLeft}>Access quarterly and annual reports.</h5>
+                                <h5 className={`${styles.bottomLeft}`}>Access quarterly and annual reports.</h5>
                                 <div className={styles.bottomRight}>
-                                    <Button className={`${styles.exploreBtn} px-4 py-2 mb-3`}><b>Explore <i class="fa fa-long-arrow-right"></i></b></Button>
+                                    <Button className={`${styles.exploreBtn} px-md-4 px-2 py-md-2 mb-3`}><b>Explore <i class="fa fa-long-arrow-right"></i></b></Button>
                                 </div>
                             </div>
                         </div>
@@ -26,65 +26,65 @@ export default function Relations() {
                             <div class={styles.allRightImgs}>
                                 <div class={styles.rightImg2}>
                                     <div className={`${styles.imgContainer} mt-3`}>
-                                    <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/policy-doc.webp" alt="#ImgNotFound" className="w-100 h-100 p-2" style={{ borderRadius: '30px' }} />
-                                    <h4 className={`${styles.bottomLeft} mb-3`}><b>Policy Statements</b></h4>
-                                    <div className={styles.bottomRight}>
-                                        <Button className={`${styles.exploreBtn} px-4 py-2 mb-3`}><b><i class="fa fa-long-arrow-right"></i></b></Button>
+                                        <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/policy-doc.webp" alt="#ImgNotFound" className="w-100 h-100 p-2" style={{ borderRadius: '30px' }} />
+                                        <h4 className={`${styles.bottomLeft} mb-3`}><b>Policy Statements</b></h4>
+                                        <div className={styles.bottomRight}>
+                                            <Button className={`${styles.exploreBtn} px-md-4 px-2 py-md-2 mb-3`}><b><i class="fa fa-long-arrow-right"></i></b></Button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div >
-                        <div class={styles.allRightImgs}>
-                            <div class={styles.rightImg2}>
-                                <div className={`${styles.imgContainer} mt-3`}>
-                                    <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/investor-contact.webp" alt="#ImgNotFound" className="w-100 h-100 p-2" style={{ borderRadius: '30px' }} />
-                                    <h4 className={`${styles.bottomLeft} mb-3`}><b>Investor Contacts</b></h4>
-                                    <div className={styles.bottomRight}>
-                                        <Button className={`${styles.exploreBtn} px-4 py-2 mb-3`}><b><i class="fa fa-long-arrow-right"></i></b></Button>
-                                    </div>
+                            </div >
+                            <div class={styles.allRightImgs}>
+                                <div class={styles.rightImg2}>
+                                    <div className={`${styles.imgContainer} mt-3`}>
+                                        <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/investor-contact.webp" alt="#ImgNotFound" className="w-100 h-100 p-2" style={{ borderRadius: '30px' }} />
+                                        <h4 className={`${styles.bottomLeft} mb-3`}><b>Investor Contacts</b></h4>
+                                        <div className={styles.bottomRight}>
+                                            <Button className={`${styles.exploreBtn} px-md-4 px-2 py-md-2 mb-3`}><b><i class="fa fa-long-arrow-right"></i></b></Button>
+                                        </div>
+                                    </div >
                                 </div >
                             </div >
                         </div >
                     </div >
                 </div >
+
+                <div className={`row ${styles.dataAfterLGScrn}`}>
+                    <div className="col-lg-7">
+                        <div className={`${styles.imgContainer} mt-3`}>
+                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/finance.webp" alt="#ImgNotFound" className="w-100" style={{ borderRadius: '30px' }} />
+                            <h2 className={`${styles.bottomLeft} mb-5`}><b>Financial Documents</b></h2>
+                            <h5 className={styles.bottomLeft}>Access quarterly and annual reports.</h5>
+                            <div className={styles.bottomRight}>
+                                <Button className={`${styles.exploreBtn} px-md-4 px-2 py-md-2 mb-3`}><b>Explore <i class="fa fa-long-arrow-right"></i></b></Button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className="col-lg-5">
+                        <div className='row'>
+                            <div className="col-md-6">
+                                <div className={`${styles.imgContainer} mt-3`}>
+                                    <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/policy-doc.webp" alt="#ImgNotFound" className="w-100" style={{ borderRadius: '30px' }} />
+                                    <h4 className={`${styles.bottomLeft} mb-3`}><b>Policy Statements</b></h4>
+                                    <div className={styles.bottomRight}>
+                                        <Button className={`${styles.exploreBtn} px-md-4 px-2 py-md-2 mb-3`}><b><i class="fa fa-long-arrow-right"></i></b></Button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className={`${styles.imgContainer} mt-3`}>
+                                    <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/investor-contact.webp" alt="#ImgNotFound" className="w-100" style={{ borderRadius: '30px' }} />
+                                    <h4 className={`${styles.bottomLeft} mb-3`}><b>Investor Contacts</b></h4>
+                                    <div className={styles.bottomRight}>
+                                        <Button className={`${styles.exploreBtn} px-md-4 px-2 py-md-2 mb-3`}><b><i class="fa fa-long-arrow-right"></i></b></Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div >
-
-            <div className={`row ${styles.dataAfterLGScrn}`}>
-                <div className="col-lg-7">
-                    <div className={`${styles.imgContainer} mt-3`}>
-                        <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/finance.webp" alt="#ImgNotFound" className="w-100" style={{ borderRadius: '30px' }} />
-                        <h2 className={`${styles.bottomLeft} mb-5`}><b>Financial Documents</b></h2>
-                        <h5 className={styles.bottomLeft}>Access quarterly and annual reports.</h5>
-                        <div className={styles.bottomRight}>
-                            <Button className={`${styles.exploreBtn} px-4 py-2 mb-3`}><b>Explore <i class="fa fa-long-arrow-right"></i></b></Button>
-                        </div>
-                    </div>
-
-                </div>
-                <div className="col-lg-5">
-                    <div className='row'>
-                        <div className="col-md-6">
-                            <div className={`${styles.imgContainer} mt-3`}>
-                                <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/policy-doc.webp" alt="#ImgNotFound" className="w-100" style={{ borderRadius: '30px' }} />
-                                <h4 className={`${styles.bottomLeft} mb-3`}><b>Policy Statements</b></h4>
-                                <div className={styles.bottomRight}>
-                                    <Button className={`${styles.exploreBtn} px-4 py-2 mb-3`}><b><i class="fa fa-long-arrow-right"></i></b></Button>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <div className={`${styles.imgContainer} mt-3`}>
-                                <img src="https://jep-asset.akamaized.net/cms/assets/jfs/home/investor-contact.webp" alt="#ImgNotFound" className="w-100" style={{ borderRadius: '30px' }} />
-                                <h4 className={`${styles.bottomLeft} mb-3`}><b>Investor Contacts</b></h4>
-                                <div className={styles.bottomRight}>
-                                    <Button className={`${styles.exploreBtn} px-4 py-2 mb-3`}><b><i class="fa fa-long-arrow-right"></i></b></Button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div >
         </div >
     )
 }
