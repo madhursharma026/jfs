@@ -5,18 +5,6 @@
     cursor: pointer;
 }
 
-.navbarOptionAfterLGScrn {
-    color: #141414;
-    font-weight: 600;
-    font-size: 17px;
-    border-bottom: 1px solid #E0E0E0;
-}
-
-.navbarOptionAfterLGScrn:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 .headerAfterLGScrn {
     display: none;
 }
@@ -39,20 +27,23 @@
 .dropdownButtonContent {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-radius: 10px;
 }
 
-.dropdownButtonContent .a {
+.dropdownButtonContent .dropdownLinks {
     color: black;
-    padding: 12px 16px;
+    padding: 5px 16px;
     text-decoration: none;
     display: block;
+    font-weight: 500;
 }
 
-.dropdownButtonContent .a:hover {
-    background-color: #ddd;
+.dropdownButtonContent .dropdownLinks:hover {
+    /* background-color: #ddd; */
+    text-decoration: underline;
 }
 
 .dropdownButton:hover .dropdownButtonContent {

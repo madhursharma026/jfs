@@ -19,3 +19,21 @@
     color: #141414;
     border: 1px solid #E1B675;
 }
+
+.BRAfterMDScrn{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .containerStyle {
+        background-image: url('https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-hero-mob.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        max-width: 1200px;
+    }
+
+    .BRAfterMDScrn{
+        display: block;
+    }
+}

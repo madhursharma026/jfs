@@ -8,9 +8,9 @@ export default function AboutUs() {
         <>
             <Header pageName='ourCompany' />
             <div className="container-lg" style={{ maxWidth: '1200px', margin: 'auto' }}>
-                <div className="row mt-5 px-5">
+                <div className="row mt-5 px-lg-0 px-3">
                     <div className="col-lg-6">
-                        <h1 style={{ fontSize: 'calc(40px + 1.25vw)' }}><b>About Us</b></h1>
+                        <h1 style={{ fontSize: 'calc(40px + 1.25vw)', fontWeight: '900' }}><b>About Us</b></h1>
                         <h5 style={{ fontSize: '1.125rem', color: '#595959' }}>Jio Financial Services Ltd. was originally incorporated as Reliance Strategic Investments Private Limited on July 22, 1999, under the Companies Act 1956. Subsequently, the name of the Company was changed to Reliance Strategic Investments Limited and a fresh certificate of incorporation was issued on January 14, 2002. The name of the Company was further changed to ‘Jio Financial Services Limited’ and a fresh certificate of incorporation was issued on July 25, 2023.</h5>
                         <br />
                         <h5 style={{ fontSize: '1.125rem', color: '#595959' }}>Our Company is a systemically important non-deposit-taking Non-Banking Financial Company registered with the Reserve Bank of India. CIN: L65990MH1999PLC120918</h5>
@@ -23,8 +23,8 @@ export default function AboutUs() {
                     </div>
                 </div>
 
-                <div className="mt-5 px-3">
-                    <h1 style={{ fontSize: 'calc(40px + 1.25vw)' }}><b>Our vision</b></h1>
+                <div className="mt-5 px-lg-0 px-3">
+                    <h1 style={{fontWeight: '900'}}><b>Our vision</b></h1>
                     <h5 style={{ fontSize: '1.125rem', color: '#595959' }}>
                         We care about a financially secure and prosperous future for all Indians. Our vision is to digitally deliver a range of financial products to promote the financial well-being of the people of India. Over the next decade, the digital economy will be the primary catalyst for the Indian economy and will generate cost efficiencies and productivity gains across sectors and industries, creating a virtuous cycle of continuous, sustainable, and inclusive growth.
                     </h5>
@@ -34,7 +34,7 @@ export default function AboutUs() {
                 </div>
 
 
-                <Carousel>
+                <Carousel className='px-lg-0 px-3'>
                     <Carousel.Item>
                         <div className="row mt-4">
                             <div className={`col-md-4 col-sm-6 col-12 ${styles.imageOne}`}>

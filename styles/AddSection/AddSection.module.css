@@ -5,6 +5,7 @@
 
 .mainHeading {
     font-size: calc(40px + 0.05vw);
+    font-weight: 900;
 }
 
 @media (min-width: 992px) {

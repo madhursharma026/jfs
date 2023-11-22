@@ -30,35 +30,44 @@ export default function Header(props) {
                                 {/* <Link href='#ourBusiness' className={`${styles.navbarOption} px-3`} style={{ textDecoration: pageName === 'ourBusiness' ? 'underline' : '' }}>Our Business</Link> */}
                                 <div class={styles.dropdownButton}>
                                     <button class={`px-3 ${styles.dropdownButtonName}`} style={{ textDecoration: pageName === 'ourBusiness' ? 'underline' : '' }}>Our Business</button>
-                                    <div class={styles.dropdownButtonContent} style={{ minWidth: '200px' }}>
-                                        <Link href='/loans' className={`${styles.a}`}>Loans</Link>
-                                        <Link href='/broking' className={`${styles.a}`}>Insurance Broking</Link>
-                                        <Link href='/banks' className={`${styles.a}`}>Payments Bank</Link>
-                                        <Link href='/solutions' className={`${styles.a}`}>Payment Solutions</Link>
+                                    <div class={`pb-3 ${styles.dropdownButtonContent}`} style={{ minWidth: '200px' }}>
+                                        <div style={{ background: '#D8AA67' }}>
+                                            <br />
+                                        </div>
+                                        <Link href='/loans' className={`${styles.dropdownLinks}`}>Loans</Link>
+                                        <Link href='/broking' className={`${styles.dropdownLinks}`}>Insurance Broking</Link>
+                                        <Link href='/banks' className={`${styles.dropdownLinks}`}>Payments Bank</Link>
+                                        <Link href='/solutions' className={`${styles.dropdownLinks}`}>Payment Solutions</Link>
                                     </div>
                                 </div>
                                 {/* <Link href='#investorRelations' className={`${styles.navbarOption} px-3`} style={{ textDecoration: pageName === 'investorRelations' ? 'underline' : '' }}>Investor Relations</Link> */}
                                 <div class={styles.dropdownButton}>
                                     <button class={`px-3 ${styles.dropdownButtonName}`} style={{ textDecoration: pageName === 'investorRelations' ? 'underline' : '' }}>Investor Relations</button>
-                                    <div class={styles.dropdownButtonContent} style={{ minWidth: '500px' }}>
-                                        <Link href='/financial' className={`${styles.a}`}>Financials</Link>
-                                        <Link href='/documents' className={`${styles.a}`}>Policy Documents</Link>
-                                        <Link href='/contacts' className={`${styles.a}`}>Investor Contacts</Link>
-                                        <Link href='/mechanism' className={`${styles.a}`}>Grievance Mechanism</Link>
-                                        <Link href='/disclosure' className={`${styles.a}`}>Disclosure Under Regulation 46 of SEBI (LODR) Regulations, 2015</Link>
-                                        <Link href='/downloads' className={`${styles.a}`}>Downloads</Link>
-                                        <Link href='/announcements' className={`${styles.a}`}>Corporate Announcements</Link>
-                                        <Link href='/notices' className={`${styles.a}`}>Notices</Link>
+                                    <div class={`pb-3 ${styles.dropdownButtonContent}`} style={{ minWidth: '500px' }}>
+                                        <div style={{ background: '#D8AA67' }}>
+                                            <br />
+                                        </div>
+                                        <Link href='/financial' className={`${styles.dropdownLinks}`}>Financials</Link>
+                                        <Link href='/documents' className={`${styles.dropdownLinks}`}>Policy Documents</Link>
+                                        <Link href='/contacts' className={`${styles.dropdownLinks}`}>Investor Contacts</Link>
+                                        <Link href='/mechanism' className={`${styles.dropdownLinks}`}>Grievance Mechanism</Link>
+                                        <Link href='/disclosure' className={`${styles.dropdownLinks}`}>Disclosure Under Regulation 46 of SEBI (LODR) Regulations, 2015</Link>
+                                        <Link href='/downloads' className={`${styles.dropdownLinks}`}>Downloads</Link>
+                                        <Link href='/announcements' className={`${styles.dropdownLinks}`}>Corporate Announcements</Link>
+                                        <Link href='/notices' className={`${styles.dropdownLinks}`}>Notices</Link>
                                     </div>
                                 </div>
                                 {/* <Link href='#ourCompany' className={`${styles.navbarOption} px-3`} style={{ textDecoration: pageName === 'ourCompany' ? 'underline' : '' }}>Our Company</Link> */}
                                 <div class={styles.dropdownButton}>
                                     <button class={`px-3 ${styles.dropdownButtonName}`} style={{ textDecoration: pageName === 'ourCompany' ? 'underline' : '' }}>Our Company</button>
-                                    <div class={styles.dropdownButtonContent} style={{ minWidth: '200px' }}>
-                                        <Link href='/aboutUs' className={`${styles.a}`}>About Us</Link>
-                                        <Link href='/director' className={`${styles.a}`}>Board of Directors</Link>
-                                        <Link href='/committees' className={`${styles.a}`}>Board Committees</Link>
-                                        <Link href='/management' className={`${styles.a}`}>Management</Link>
+                                    <div class={`pb-3 ${styles.dropdownButtonContent}`} style={{ minWidth: '200px' }}>
+                                        <div style={{ background: '#D8AA67' }}>
+                                            <br />
+                                        </div>
+                                        <Link href='/aboutUs' className={`${styles.dropdownLinks}`}>About Us</Link>
+                                        <Link href='/director' className={`${styles.dropdownLinks}`}>Board of Directors</Link>
+                                        <Link href='/committees' className={`${styles.dropdownLinks}`}>Board Committees</Link>
+                                        <Link href='/management' className={`${styles.dropdownLinks}`}>Management</Link>
                                     </div>
                                 </div>
                                 <Link href='/careers' className={`${styles.navbarOption} px-3`} style={{ textDecoration: pageName === 'careers' ? 'underline' : '' }}>Careers</Link>

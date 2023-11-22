@@ -8,7 +8,7 @@ export default function Committees() {
         <>
             <Header pageName='ourCompany' />
             <div className="container-lg" style={{ maxWidth: '1200px', margin: 'auto' }}>
-                <h1 className='text-md-center px-3 mt-5' style={{ fontSize: 'calc(40px + 1.25vw)' }}><b>Board Committees</b></h1>
+                <h1 className='text-md-center px-3 mt-5' style={{ fontSize: 'calc(40px + 1.25vw)', fontWeight: '900' }}><b>Board Committees</b></h1>
                 <h5 className='text-md-center px-3' style={{ fontSize: '1.125rem' }}>Discover our board committees, each dedicated to managing specific responsibilities related to various aspects of operations and compliance.</h5>
                 <div className="row mb-5 px-3">
                     <div className="col-md-4 mt-5">
