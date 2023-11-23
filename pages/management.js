@@ -9,11 +9,6 @@ export default function Management() {
                 <h1 className='mt-5' style={{ fontSize: 'calc(40px + 1.25vw)', fontWeight: '900' }}><b>Management</b></h1>
                 <div className="row">
                     <div className={`col-md-4 col-sm-6 col-12 p-5`}>
-                        <img src="https://jep-asset.akamaized.net/cms/assets/jfs/director/shri_hitesh_sethia.png" alt="#ImgNotFound" className='w-100 p-3' />
-                        <h4 style={{fontWeight: '900'}}><b>Mr. Hitesh Kumar Sethia</b></h4>
-                        <h6>President and Chief Executive Officer</h6>
-                    </div>
-                    <div className={`col-md-4 col-sm-6 col-12 p-5`}>
                         <img src="https://jep-asset.akamaized.net/cms/assets/jfs/director/charanjit.png" alt="#ImgNotFound" className='w-100 p-3' />
                         <h4 style={{fontWeight: '900'}}><b>Mr. Charanjit Attra</b></h4>
                         <h6>Group Chief Operating Officer</h6>

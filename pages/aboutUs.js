@@ -7,7 +7,8 @@ export default function AboutUs() {
     return (
         <>
             <Header pageName='ourCompany' />
-            <div className="container-lg" style={{ maxWidth: '1200px', margin: 'auto' }}>
+            <div className="container-xxl px-lg-5 px-3">
+            <div className="mx-lg-3">
                 <div className="row mt-5 px-lg-0 px-3">
                     <div className="col-lg-6">
                         <h1 style={{ fontSize: 'calc(40px + 1.25vw)', fontWeight: '900' }}><b>About Us</b></h1>
@@ -89,6 +90,7 @@ export default function AboutUs() {
                     </Carousel.Item>
                 </Carousel>
                 <br /><br /><br />
+            </div>
             </div>
             <Footer />
         </>

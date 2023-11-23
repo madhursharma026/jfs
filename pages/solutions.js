@@ -8,16 +8,10 @@ export default function Solutions() {
         <>
             <Header pageName='ourBusiness' />
             <div className="m-3 m-lg-5">
-                <div className={`container-lg px-5 py-5 ${styles.containerStyle}`}>
-                    <div className='text-white pt-5' style={{ maxWidth: '600px' }}>
-                        <h1 style={{ fontSize: 'calc(40px + 1.25vw)', fontWeight: '900' }}><b>Digital payment acceptance made easy</b></h1>
+                <div className={`container-lg px-md-5 px-4 py-5 ${styles.containerStyle}`}>
+                    <div className='text-white pt-md-5 pb-md-5 mb-md-5' style={{ maxWidth: '650px' }}>
+                        <h1 className='pt-md-3' style={{ fontSize: 'calc(36px + 1.25vw)', fontWeight: '900' }}><b>Digital payment acceptance made easy</b></h1>
                         <h5>Check this safest, smartest, and quickest way for businesses to accept payments from their customers.</h5>
-                        <br /><br />
-                        <div className={`${styles.BRAfterMDScrn}`}>
-                            <br /><br /><br /><br /><br />
-                            <br /><br /><br /><br /><br />
-                            <br /><br /><br />
-                        </div>
                     </div>
                 </div>
             </div>
@@ -124,33 +118,57 @@ export default function Solutions() {
 
                 <Accordion className='mt-4'>
                     <Accordion.Item eventKey="0" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
-                        <Accordion.Header><b>Who is eligible to hold a Jio Payments Bank account?</b></Accordion.Header>
+                        <Accordion.Header><b>What is JioPay Business?</b></Accordion.Header>
                         <Accordion.Body>
-                            You can apply for an instant personal loan online by visiting the MyJio app and following the simple steps mentioned in the loan section.
+                            JioPay Business is a payment aggregator and gateway provided by Reliance Payment Solutions Limited, a subsidiary of Reliance Industries Limited. It offers merchants and businesses of all sizes simple and self-service products to accept and process payments online and offline from their customers. JioPay Business supports payments through web, mobile, and Point of Sale (POS) systems, making it convenient for merchants to manage transactions. With JioPay Business, businesses can streamline their payment operations and provide a seamless payment experience to their customers.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
-                        <Accordion.Header><b>What documents are required for an online personal loan application?</b></Accordion.Header>
+                        <Accordion.Header><b>What is the purpose of the JioPay Business app?</b></Accordion.Header>
                         <Accordion.Body>
-                            For the online personal loan application, you only need to provide your PAN number, Aadhaar number, and Aadhaar-linked mobile number. No physical documents are required.
+                            JioPay Business App is designed for retailers, businessmen or any other service providers to keep track of payments even when on the move. With the JioPay Business app, you can perform payment processing activities like accepting payments, viewing past transactions, issuing refunds, editing your profile and much more.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
-                        <Accordion.Header><b>Can self-employed individuals apply for a personal loan through Jio Finance?</b></Accordion.Header>
+                        <Accordion.Header><b>How can I download the JioPay Business App?</b></Accordion.Header>
                         <Accordion.Body>
-                            Yes, both salaried and self-employed individuals can apply for a personal loan through Jio Finance using the online application process.
+                            To download the JioPay Business App, follow these steps:
+                            1. Open the Google Play Store app on your phone. <br />
+                            2. Search for "JioPay Business" and select it. <br />
+                            3. Tap "Install" to download and install the app. <br />
+                            Alternatively, you can download the JioPay Business App directly from https://play.google.com/store/apps/details?id=com.jiopay.business Note: The JioPay Business App is available for Android devices on the Google Play Store.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
-                        <Accordion.Header><b>Is there a maximum loan amount limit for personal loans through Jio Finance?</b></Accordion.Header>
+                        <Accordion.Header><b>I have forgotten my account password. How can I reset it?</b></Accordion.Header>
                         <Accordion.Body>
-                            Jio Finance offers personal loans of up to Rs 3 lakh to fulfil various needs or overcome financial crises.
+                            At the time of login to the JioPay Business app/dashboard, select the 'Forgot password' option and follow the instructions indicated to reset the password.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="5" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
-                        <Accordion.Header><b>What are the eligibility criteria for an online personal loan?</b></Accordion.Header>
+                        <Accordion.Header><b>I am unable to login to the app/dashboard. What can I do?</b></Accordion.Header>
                         <Accordion.Body>
-                            The eligibility criteria include being an Indian citizen, aged between 23-58 years, and either being salaried or self-employed. You need to have a PAN card and an Aadhaar card with an Aadhaar-linked mobile number.
+                            If you are unable to log in to the JioPay Business App or Dashboard, you can try the following:
+                            1. Check your internet connection: Ensure you have a stable internet connection by switching between Wi-Fi and mobile data. <br />
+                            2. Reinstall the app: Uninstall the JioPay Business App and reinstall it to ensure you have the latest version. <br />
+                            3. Verify your username and password: Double-check that you are entering the correct credentials. Use the "Forgot Password" option if you need to reset your password. If the login issues persist, kindly contact merchant support at merchant.support@jiopay.com for further assistance.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="6" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
+                        <Accordion.Header><b>Why my app is crashing on my Phone?</b></Accordion.Header>
+                        <Accordion.Body>
+                            If the JioPay Business App is crashing on your phone, try the following steps:
+                            1. Check your internet connection: Ensure you have a stable internet connection by switching between Wi-Fi and mobile data. <br />
+                            2. Delete and reinstall the app: Uninstall the JioPay Business app and reinstall it to get the latest version. <br />
+                            3. Check phone software updates: Make sure your phone's software is up to date by checking for available updates. <br />
+
+                            If the app still crashes, contact merchant.support@jiopay.com for assistance.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="7" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
+                        <Accordion.Header><b>Where can I see transaction details in the app/portal?</b></Accordion.Header>
+                        <Accordion.Body>
+                            Click on the icon in the top right corner of the app/portal and select 'Transactions' from the option to see the transaction details.
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

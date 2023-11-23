@@ -63,13 +63,13 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .divStyle3 {
         display: none;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .divStyle2 {
         display: none;
     }

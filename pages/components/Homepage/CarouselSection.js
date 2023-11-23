@@ -1,6 +1,6 @@
-import Carousel from 'react-bootstrap/Carousel';
-import styles from '../../../styles/Homepage/CarouselSection.module.css'
 import { Button } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
+import styles from '../../../styles/Homepage/CarouselSection.module.css';
 
 function CarouselSection() {
   return (

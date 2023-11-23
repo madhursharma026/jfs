@@ -8,12 +8,7 @@ export default function WorkLearnGrow() {
                 <div className='text-white' style={{ maxWidth: '600px' }}>
                     <h1 style={{ fontSize: 'calc(40px + 1.25vw)', fontWeight: '900' }}><b>Work, learn and grow</b></h1>
                     <h5>Join our diverse workforce to explore learning opportunities and experience continuous growth.</h5>
-                    <Button className={`${styles.exploreBtn} mt-3 px-4 py-2 mb-3`}><b>Explore <i class="fa fa-long-arrow-right"></i></b></Button>
-                    <br /><br /><br /><br /><br />
-                    <div className={`${styles.BRAfterMDScrn}`}>
-                    <br /><br /><br /><br /><br />
-                    <br /><br /><br />
-                    </div>
+                    <Button className={`${styles.exploreBtn} mt-3 px-4 py-2 mb-3`}><b>Explore</b></Button>
                 </div>
             </div>
         </div>

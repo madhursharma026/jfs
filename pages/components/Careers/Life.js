@@ -1,6 +1,6 @@
 import { Button, Carousel } from "react-bootstrap";
 // import styles from '../../../styles/Explore/Explore.module.css'
-import styles from '../../../styles/Homepage/Explore.module.css';
+import styles from '../../../styles/Homepage/Service.module.css';
 
 export default function Life() {
     return (
@@ -29,22 +29,22 @@ export default function Life() {
                 <Carousel className="px-3">
                     <Carousel.Item>
                         <div className="mx-md-5 my-5">
-                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card1-.jpg" alt="#ImgNotFound" style={{ borderRadius: '30px', minHeight: '400px', maxHeight: '400px', height: '100%', width: '100%' }} />
+                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card1-.jpg" alt="#ImgNotFound" className={styles.carouselItem} />
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="mx-md-5 my-5">
-                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card2-.jpg" alt="#ImgNotFound" style={{ borderRadius: '30px', minHeight: '400px', maxHeight: '400px', height: '100%', width: '100%' }} />
+                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card2-.jpg" alt="#ImgNotFound" className={styles.carouselItem} />
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="mx-md-5 my-5">
-                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/tile3-desk.webp" alt="#ImgNotFound" style={{ borderRadius: '30px', minHeight: '400px', maxHeight: '400px', height: '100%', width: '100%' }} />
+                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/tile3-desk.webp" alt="#ImgNotFound" className={styles.carouselItem} />
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="mx-md-5 my-5">
-                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card5.svg" alt="#ImgNotFound" style={{ borderRadius: '30px', minHeight: '400px', maxHeight: '400px', height: '100%', width: '100%' }} />
+                            <img src="https://jep-asset.akamaized.net/cms/assets/jfs/careers/career-card5.svg" alt="#ImgNotFound" className={styles.carouselItem} />
                         </div>
                     </Carousel.Item>
                 </Carousel>

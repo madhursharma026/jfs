@@ -9,11 +9,13 @@
     border-radius: 30px;
     flex: 1;
 }
+
 .divStyle2 {
     border: 1px solid #FFD700;
     border-radius: 30px;
     flex: 1;
 }
+
 .divStyle3 {
     border: 1px solid #FFD700;
     border-radius: 30px;
@@ -27,8 +29,14 @@
 }
 
 .paraStyle {
-    font-size: 15px;
+    /* font-size: 15px;
+    font-weight: 500; */
+    color: #595959;
     font-weight: 500;
+    text-transform: none;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.3333333333;
 }
 
 .gifStyle {
@@ -53,6 +61,23 @@
     display: none;
 }
 
+.carouselItem {
+    overflow: hidden;
+    max-height: 70vh;
+    min-height: 70vh;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+    .divStyle3 {
+        display: none;
+    }
+}
+
 @media (max-width: 991px) {
     .exploreSectionBeforeLGScrn {
         display: none;
@@ -63,13 +88,7 @@
     }
 }
 
-@media (max-width: 768px) {
-    .divStyle3 {
-        display: none;
-    }
-}
-
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .divStyle2 {
         display: none;
     }

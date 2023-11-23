@@ -8,15 +8,10 @@ export default function Loans() {
         <>
             <Header pageName='ourBusiness' />
             <div className="m-3 m-lg-5">
-                <div className={`container-lg px-5 py-5 ${styles.containerStyle}`}>
-                    <div className='text-white pt-5' style={{ maxWidth: '650px' }}>
-                        <h1 className='pt-lg-3' style={{ fontSize: 'calc(40px + 1.25vw)', fontWeight: '900' }}><b>Discover the power of instant loans</b></h1>
+                <div className={`container-lg px-md-5 px-4 py-5 ${styles.containerStyle}`}>
+                    <div className='text-white pt-md-5 pb-md-5 mb-md-5' style={{ maxWidth: '650px' }}>
+                        <h1 className='pt-md-3' style={{ fontSize: 'calc(36px + 1.25vw)', fontWeight: '900' }}><b>Discover the power of instant loans</b></h1>
                         <h5>Make a wish, apply for a loan and see it happening!</h5>
-                        <br /><br /><br /><br /><br />
-                        <div className={`${styles.BRAfterMDScrn}`}>
-                            <br /><br /><br /><br /><br />
-                            <br /><br /><br />
-                        </div>
                     </div>
                 </div>
             </div>
@@ -32,7 +27,7 @@ export default function Loans() {
                     </div>
                     <div className="col-md-6 px-lg-5" style={{ margin: 'auto' }}>
                         <div className="px-xl-3 pt-md-0 pt-3">
-                            <h1 style={{ fontWeight: '900' }}><b>Personal Loan</b></h1>
+                            <h2 style={{ fontWeight: '900' }}><b>Personal Loan</b></h2>
                             <h6 className='text-secondary' style={{ fontSize: '18px' }}>Realise your dreams, right away. Whether you are a salaried or self-employed applicant, you can get personal loans starting at ₹30,000 without the hassle of physical documents or trips to banks. What’s more, it only requires your mobile number, Aadhaar number and PAN details!</h6>
                         </div>
                     </div>
@@ -46,7 +41,7 @@ export default function Loans() {
                     </div>
                     <div className="col-md-6 px-lg-5" style={{ margin: 'auto' }}>
                         <div className="px-xl-3 pt-lg-0 pt-3">
-                            <h1 style={{ fontWeight: '900' }}><b>Consumer Durable Loan</b></h1>
+                            <h2 style={{ fontWeight: '900' }}><b>Consumer Durable Loan</b></h2>
                             <h6 className='text-secondary' style={{ fontSize: '18px' }}>Buy everything on your wish list now! From furniture pieces to fancy electronic items, you can quickly buy them with a consumer durable loan. That’s not all. You enjoy zero-cost EMI, zero down payment, and no foreclosure charges. Must say, it's your ticket to purchasing everything you desire!</h6>
                         </div>
                     </div>
@@ -60,7 +55,7 @@ export default function Loans() {
                     </div>
                     <div className="col-md-6 px-lg-5" style={{ margin: 'auto' }}>
                         <div className="px-xl-3 pt-md-0 pt-3">
-                            <h1 style={{ fontWeight: '900' }}><b>Merchant Trade Credit Facility</b></h1>
+                            <h2 style={{ fontWeight: '900' }}><b>Merchant Trade Credit Facility</b></h2>
                             <h6 className='text-secondary' style={{ fontSize: '18px' }}>Planning to upgrade your business setup or transform its operations? Do it now. With a credit limit of up to ₹10 lakh, you can see all your plans coming to life and business take flight. A 14-day no-cost EMI and zero foreclosure charges further give wings to your business ambition.</h6>
                         </div>
                     </div>

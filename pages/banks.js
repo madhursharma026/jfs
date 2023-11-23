@@ -8,15 +8,10 @@ export default function Banks() {
         <>
             <Header pageName='ourBusiness' />
             <div className="m-3 m-lg-5">
-                <div className={`container-lg px-5 py-5 ${styles.containerStyle}`}>
-                    <div className='text-white pt-5' style={{ maxWidth: '650px' }}>
-                        <h1 className='pt-lg-3' style={{ fontSize: 'calc(40px + 1.25vw)', fontWeight: '900' }}><b>It's your everyday banking companion</b></h1>
+                <div className={`container-lg px-md-5 px-4 py-5 ${styles.containerStyle}`}>
+                    <div className='text-white pt-md-5 pb-md-5 mb-md-5' style={{ maxWidth: '650px' }}>
+                        <h1 className='pt-md-3' style={{ fontSize: 'calc(36px + 1.25vw)', fontWeight: '900' }}><b>It's your everyday banking companion</b></h1>
                         <h5>Made for all of your payments, banking and financial needs.</h5>
-                        <br /><br /><br /><br /><br />
-                        <div className={`${styles.BRAfterMDScrn}`}>
-                            <br /><br /><br /><br /><br />
-                            <br /><br /><br />
-                        </div>
                     </div>
                 </div>
             </div>
@@ -126,31 +121,31 @@ export default function Banks() {
                     <Accordion.Item eventKey="0" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
                         <Accordion.Header><b>Who is eligible to hold a Jio Payments Bank account?</b></Accordion.Header>
                         <Accordion.Body>
-                            You can apply for an instant personal loan online by visiting the MyJio app and following the simple steps mentioned in the loan section.
+                            Any Indian resident above 18 years of age can open a Jio Payments Bank account.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
-                        <Accordion.Header><b>What documents are required for an online personal loan application?</b></Accordion.Header>
+                        <Accordion.Header><b>What is the minimum balance I need to keep in my Jio Payments Bank account?</b></Accordion.Header>
                         <Accordion.Body>
-                            For the online personal loan application, you only need to provide your PAN number, Aadhaar number, and Aadhaar-linked mobile number. No physical documents are required.
+                            There is no minimum balance requirement for the Jio Payments Bank account.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
-                        <Accordion.Header><b>Can self-employed individuals apply for a personal loan through Jio Finance?</b></Accordion.Header>
+                        <Accordion.Header><b>Are there any charges/fees for using my Jio Payments Bank account?</b></Accordion.Header>
                         <Accordion.Body>
-                            Yes, both salaried and self-employed individuals can apply for a personal loan through Jio Finance using the online application process.
+                            There are no charges or fees for your Jio Payments Bank account.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
-                        <Accordion.Header><b>Is there a maximum loan amount limit for personal loans through Jio Finance?</b></Accordion.Header>
+                        <Accordion.Header><b>Are there any penalties if the account is inactive?</b></Accordion.Header>
                         <Accordion.Body>
-                            Jio Finance offers personal loans of up to Rs 3 lakh to fulfil various needs or overcome financial crises.
+                            No, there are no penalties if the account is inactive.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="5" style={{ borderTop: '0', borderLeft: '0', borderRight: '0' }}>
-                        <Accordion.Header><b>What are the eligibility criteria for an online personal loan?</b></Accordion.Header>
+                        <Accordion.Header><b>What are the ID proofs required for opening a Jio Payments Bank account?</b></Accordion.Header>
                         <Accordion.Body>
-                            The eligibility criteria include being an Indian citizen, aged between 23-58 years, and either being salaried or self-employed. You need to have a PAN card and an Aadhaar card with an Aadhaar-linked mobile number.
+                            You just require an Aadhaar Card and PAN Card to open a Jio Payments Bank account.
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
